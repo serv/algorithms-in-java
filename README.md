@@ -2,9 +2,9 @@
 
 - Lists
     - ~~Bag~~
-    - Stack
+    - ~~Stack~~
         - ~~Dynamically resizing array~~
-        - Linked list
+        - ~~Linked list~~
     - Queue
         - Dynamically resizing array
         - Linked list
