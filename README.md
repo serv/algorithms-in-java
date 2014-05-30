@@ -11,13 +11,13 @@
     - Quick union
     - Quick find
 - Sorting
-    -Selection
-    -Insertion
-    -Shell
-    -Merg
-    -Quick
-    -Heap
+    - Selection
+    - Insertion
+    - Shell
+    - Merg
+    - Quick
+    - Heap
 - Searching and indexing
-    -Binary search tree
-    -Balanced search tree
-    -Hash table
+    - Binary search tree
+    - Balanced search tree
+    - Hash table
