@@ -6,8 +6,7 @@
         - ~~Dynamically resizing array~~
         - ~~Linked list~~
     - Queue
-        - Dynamically resizing array
-        - Linked list
+        - ~~Linked list~~
     - Quick union
     - Quick find
 - Sorting

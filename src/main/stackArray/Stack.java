@@ -1,7 +1,5 @@
 package main.stackArray;
 
-import static org.junit.Assert.assertEquals;
-
 public class Stack<T> {
     private int count;
     private Object[] storage;
