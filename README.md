@@ -5,7 +5,7 @@
     - ~~Stack~~
         - ~~Dynamically resizing array~~
         - ~~Linked list~~
-    - Queue
+    - ~~Queue~~
         - ~~Linked list~~
     - Quick union
     - Quick find
