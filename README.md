@@ -10,7 +10,7 @@
     - Quick union
     - Quick find
 - Sorting
-    - Selection
+    - ~~Selection~~
     - Insertion
     - Shell
     - Merg
