@@ -2,7 +2,10 @@ package test.sort;
 
 import static org.junit.Assert.*;
 
+import java.util.Arrays;
+
 import org.junit.Test;
+
 import main.sort.Sort;
 
 public class SortTest {
@@ -19,7 +22,13 @@ public class SortTest {
         assertEquals("failure - should be unsorted", false, Sort.isSortedInt(intArray));
         intArray = Sort.selectionInt(intArray);
         assertEquals("failure - should be sorted", true, Sort.isSortedInt(intArray));
-
     }
-
+    
+    @Test
+    public void testInsertion() {
+        double[] doubleArray = Sort.unsortedDouble();
+        assertEquals("failure - should be sorted", false, Sort.isSortedDouble(doubleArray));
+        doubleArray = Sort.insertionDouble(doubleArray);
+        assertEquals("failure - should be sorted ", true, Sort.isSortedDouble(doubleArray));
+    }
 }

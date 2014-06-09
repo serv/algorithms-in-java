@@ -101,4 +101,22 @@ public class Sort {
         
         return array;
     }
+    
+    public static double[] insertionDouble(double[] array) {
+        for (int i = 0; i < array.length - 1; i ++) {
+            for (int j = i; j > 0; j--) {
+                if (array[j] > array[i+1]) {
+                    double temp = array[i+1];
+                    array[i+1] = array[j];
+                    array[j] = temp;
+                }
+            }
+        }
+        
+        return array;
+    }
+    
+    public static int[] insertionInt(int[] array) {
+        return array;
+    }
 }
